@@ -113,7 +113,7 @@ password.addEventListener("blur",function(){
 password.addEventListener("keyup",function(){
     // let passwordRE=/(^[A-Z])(?=.*\d)(?=.*[a-z]).{8,32}/g;
     
-    var upperCaseLetters = /(^[A-Z])/g;
+    var upperCaseLetters = /([A-Z])/g;
     if(password.value.match(upperCaseLetters)) {  
         capitalPass.classList.remove("invalid");
         capitalPass.classList.add("valid");

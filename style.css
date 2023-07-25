@@ -15,7 +15,8 @@ span{
   color: rgb(0, 38, 161);
 }
 .logo{
-  width: 4rem;
+  width: 10vw;
+  margin: 0 4%;
 }
 html {
     position: fixed;
@@ -52,7 +53,7 @@ header{
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .welcome-div1{
