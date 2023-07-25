@@ -12,6 +12,9 @@ body{
   overflow-x: hidden;
   overflow-y: auto;
 }
+.info{
+  font-size:x-large;
+}
 span{
     color: aqua;
 }
@@ -71,7 +74,7 @@ text-align:center;
 
 main{
     width: 100%;
-    padding: 1rem;
+    padding: 0.22rem;
     text-align: center;
     font-size: 30px;
     /* background: linear-gradient(rgba(10, 22, 111, 0.9), rgba(46, 9, 62, 0.6));
