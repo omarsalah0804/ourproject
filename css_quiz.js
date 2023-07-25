@@ -600,7 +600,7 @@ answer104.addEventListener("click",function(){
 })
 nextBtn10.addEventListener("click",function(){
     if(flag10==1){
-        window.location.href="./rezult.html"
+        window.location.href="./result.html"
     }
 })
 function startTimer(duration, display) {
