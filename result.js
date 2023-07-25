@@ -47,7 +47,7 @@ let htmlQuestions = [
     "theCa" : `&lt;tagname style="property:value;"&gt;`
 } ,
 {
-    "Que" : "Apart from <i> tag, which of the following tag is used to render a text in italics?" ,
+    "Que" : `Apart from &lt;i&gt; tag, which of the following tag is used to render a text in italics?` ,
     "theCa" : `&lt;em&gt;`
 } ,
     {
