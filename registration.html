@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Quiz Five | Reqister</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo-tab.png" />
+    <link rel="stylesheet" href="./registration.css" />
+  </head>
+  <body>
+    <div class="animated-background">
+      <div class="logo-img">
+        <img src="./images/blob__1_-removebg-preview.png" width="6%" style="margin-left: 3%">
+      </div>
+      <div class="form-img">
+        
+        <div class="sign-up">
+          <form>
+            <input type="text" id="fName" placeholder="First Name" /><br />
+            <p id="fNameP" class="invalid">
+              <b>letters</b> Only (3 leters minimum)
+            </p>
+
+            <input type="text" id="lName" placeholder="Last Name" /><br />
+            <p id="lNameP" class="invalid">
+              <b>letters</b> Only (3 leters minimum)
+            </p>
+
+            <input type="email" id="email" placeholder="Email" /><br />
+            <p id="emailP" class="invalid"><b>example@mail.com</b></p>
+
+            <input
+              type="email"
+              id="confEmail"
+              placeholder="Confirm Email"
+            /><br />
+            <p id="confEmailP" class="invalid"><b>Must Match with E-mail</b></p>
+
+            <input type="password" id="password" placeholder="Password" /><br />
+            <p id="capitalPass" class="invalid">
+              Start With <b>Uppercase</b> letter
+            </p>
+            <p id="letterPass" class="invalid"><b>lowercase</b> letter</p>
+            <p id="numberPass" class="invalid"><b>number</b></p>
+            <p id="lengthPass" class="invalid"><b>(8-32) characters</b></p>
+
+            <input
+              type="password"
+              id="confPassword"
+              placeholder="Confirm Password"
+            /><br />
+            <p id="confPassP" class="invalid">
+              <b>Must Match with Password</b>
+            </p>
+            <select name="requiredPosition" id="requiredPosition">
+              <option value="SelectPosition" selected disabled>
+                Select position
+              </option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="Javascritp">Javascritp</option></select
+            ><br />
+            <p id="selectP" class="invalid"><b>invalid Selection</b></p>
+            <br />
+            <button id="buttonID" type="submit" value="submit">
+              <span>Sign Up</span>
+            </button>
+            <p class="singInP">Allready have an account? <a href="./login.html" style="text-decoration: none;">Sing In</a> </p>
+          </form>
+        </div>
+        <div class="sign-up-img">
+          <img src="./images/blob__3_-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./registration.js"></script>
+</html>
