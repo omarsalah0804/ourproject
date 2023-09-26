@@ -218,7 +218,7 @@ secondDivTheGrade ()
 let btn=document.getElementById("showanswersbutton");
 btn.addEventListener("click",function(){
     btn.style.display="none";
-    let html="<table class=\"tablee\"  border=2px>";
+    let html="<table class=\"tablee\"  border=2px  width=100%>";
     html+="<tr>";
     html+="<th class='thh'>"+"questions"+"</th>";
     html+="<th class='thh'>"+"correct answers"+"</th>";
